@@ -1,7 +1,8 @@
 # my-rime
 
 ``` bash
-cd
+brew install --cask squirrel
+cd ~
 git clone --depth=1 https://github.com/rime/plum
 cd plum
 bash rime-install iDvel/rime-ice:others/recipes/full
