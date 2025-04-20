@@ -1,0 +1,6 @@
+patch:
+  key_binder:
+    import_preset: default  # 从 default.yaml 继承通用的
+    bindings:
+      - { when: composing, accept: Tab,       send: Right }
+      - { when: composing, accept: Shift+Tab, send: Left }

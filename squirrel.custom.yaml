@@ -1,0 +1,2 @@
+patch:
+  style/candidate_list_layout: linear  # stacked | linear 皮肤横竖排显示是调整这个
