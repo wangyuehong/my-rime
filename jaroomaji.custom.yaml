@@ -1,4 +1,11 @@
 patch:
+  switches:
+    - name: ascii_mode
+      states: [ あ, A ]
+      reset: 0  # デフォルトでかなモード
+    - name: full_shape
+      states: [ 半角, 全角 ]
+      reset: 0  # デフォルトで半角モード
   key_binder/bindings/+:
     - { when: composing, accept: Tab,       send: Right }
     - { when: composing, accept: Shift+Tab, send: Left }
