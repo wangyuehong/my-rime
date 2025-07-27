@@ -1,5 +1,5 @@
 patch:
   "switches/@1/reset": 1
-  # - name: ascii_punct  # 中英标点
-  #   states: [ ¥, $ ]
-  #   reset: 1
+  key_binder/bindings:
+    - { when: has_menu, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
