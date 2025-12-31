@@ -1,3 +1,10 @@
 patch:
   "switches/@1/reset": 1
   "recognizer/patterns/raw": "^.*-.*$"
+  # 清空置顶规则，让用户词频生效
+  "pin_cand_filter": ~
+  # 禁用长词优先
+  "long_word_filter/count": 0
+  # 已输入的词显示 * 标记
+  "engine/filters/@after last": lua_filter@*is_in_user_dict
+  "is_in_user_dict": true
