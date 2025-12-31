@@ -1,0 +1,9 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: default
+  description: "wangyuehong's rime configuration"
+install_files: >-
+  default.custom.yaml
+  rime_ice.custom.yaml
+  squirrel.custom.yaml
